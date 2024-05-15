@@ -1,6 +1,8 @@
 package com.ih13b312_domaekazuki.ih13bkadai02
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +19,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    val messageView: TextView = findViewById(R.id.messageView)
+    val waterBtn: Button = findViewById(R.id.waterBtn)
 }
