@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val messageView: TextView = findViewById(R.id.messageView)
+        val waterBtn: Button = findViewById(R.id.waterBtn)
     }
-
-    val messageView: TextView = findViewById(R.id.messageView)
-    val waterBtn: Button = findViewById(R.id.waterBtn)
 }
